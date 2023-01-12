@@ -1,0 +1,711 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
+/*start header*/
+.header{
+    background-image: url("../assets/img/paper-shopping-bags-500x500.jpg");
+    height: 100vh;
+    text-align: center;
+background-repeat: no-repeat;
+background-position: -5px;    
+    
+}
+.contaier{
+    width: 80%;
+    margin: auto;
+    }
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:white;
+
+}
+.header{
+    position: relative;
+}
+
+.icons{
+    position: absolute;
+    right: 0;
+    top: 200px;
+    display: inline-block;
+    background-color: white;
+    padding: 0 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    position: fixed;
+}
+.c{
+    color: #fff;
+    font-size: 18px;
+    margin-right: 20px;
+    font-weight: 100;
+    cursor: pointer;
+}
+.icons a :hover{
+color: #0275d8;
+}
+.icons i{
+    color: #666; 
+ 
+ font-size: 20px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ 
+}
+
+.list-items a{
+    font-size: 18px;
+}
+.logo img{
+    width: 30%;
+
+}
+.navbar{
+    overflow: hidden;
+    padding-top: 50px;
+   
+}
+.logo{
+    float: left;
+    width: 40%;
+}
+.nav{
+    float: left;
+    width: 60%;
+    
+}
+.list-items{
+display: inline-block;
+margin-right: 20px;
+
+}
+.list-items a:hover{
+    color:black;
+}
+.c:hover{
+    color:black;
+}
+.overlay{
+    background-color: rgba(0,0, 0, .5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.header-contant{
+    padding-top: 125px;
+    color: white;
+    text-align: center;
+    font-family: 'Lora', serif;
+
+}
+
+.header-contant h3{
+margin-bottom: 5px;
+font-size: 35px;
+font-weight: 25;
+}
+.header-contant h1{
+    font-size: 80px;
+    font-weight: 90;
+    margin-bottom: 18px;
+}
+.header-contant p{
+    width: 600px;
+    margin: auto;
+    line-height: 1.86em;
+    font-size: 22px;
+    margin-bottom: 20px;
+    }
+    .header-contant .btn{
+        padding: 15px 20px;
+        border-radius: 5px;
+        cursor:pointer;
+        font-weight: bold;
+    }
+    .header-contant .btn:hover{
+        opacity: .6;
+    }
+    /*end header*/
+/*start New Arrivals*/
+.Arrivals .contaier{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    }
+    .Old-Classic .contaier{
+        padding-top: 80px;
+        padding-bottom: 80px;
+        }
+.Best-Sellers .contaier{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    }
+.Arrivals-cont{
+    margin-bottom: 40px;
+    text-align: center;
+
+}
+.Arrivals-cont h2{
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 30px;
+}
+.Arrivals-cont p{
+width: 60%;
+margin: auto;
+text-align: center;
+line-height: 33px;
+color: #606060;
+font-size: 20px;
+}
+
+.Arrivals-img{
+overflow: hidden;
+}
+.Arr-img img{
+    width: 100%;
+  
+}
+
+.Arr-img{
+    float: left;
+    width: 23%;
+  border: #888 1px solid;
+  margin-right: 20px;
+  
+}
+
+.Arr-img :hover + .overlay-hovr {
+    
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    
+}
+.overlay-hovr{
+   color: white;
+   
+}
+.Arr-img p{
+    margin-bottom: 10px;
+}
+.Arr-img span{
+    color: #888;
+    font-size: 18px;
+}
+.Arr-img{
+    position: relative;
+}
+a .sale{
+    color: white;
+    background-color: #333333;
+    text-transform: uppercase;
+    border-radius: 2px;
+    padding:10px 20px;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+}
+.Arr-img i{
+    color: #686868;
+}
+
+.detalis{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.Best-Sellers {
+    background-color: #f8f8f8;
+    
+}
+
+.delet{
+    text-decoration: line-through;
+    margin-right: 5px;
+}
+.add{
+  margin-left: 85px;
+  display: none;
+}
+.Arr-img:hover .add{
+    display:inline-block;
+    transition-duration: 5s;
+    transition-delay: 5s;
+}
+/*end New Arrivals*/
+/*start New arrivals every week.*/
+.New-arrivals .contaier{
+    overflow: hidden;
+  
+}
+
+.New-arrivals{
+    background-color: #f8f8f8;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    
+}
+
+.New-arrivals-img{
+float: left;
+width: 50%;
+}
+.New-arrivals-img img{
+    width: 90%;
+}
+
+.New-arrivals-contant h2{
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+.New-arrivals-contant p{
+    width: 90%;
+    text-align: left;
+    margin-bottom: 20px;
+    line-height: 30px;
+    font-size: 20px;
+    color: #686868;
+    
+    }
+.New-arrivals-contant{
+    float: left;
+    width: 50%;
+    padding-top: 50px;
+   
+}
+.New-arrivals span{
+    margin-left: 10px;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+.New-arrivals li{
+    margin-bottom: 20px;
+
+}
+.New-arrivals i{
+    font-size: 20px;
+
+}
+/*end New arrivals every week.*/
+/*start Summer Sale*/
+.Summer-Sale .contaier{
+    overflow: hidden;
+  
+}
+.Summer-Sale{
+    padding-top: 80px;
+    padding-bottom: 80px; 
+}
+.Summer-Sale-cont{
+float: left;
+width: 50%;
+padding-bottom: 50px;
+
+}
+.Summer-Sale-img{
+float: left;
+width: 50%;
+}
+.Summer-Sale-img img{
+    width: 90%;
+}
+.Summer-Sale h2{
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+.Summer-Sale p{
+    width: 90%;
+    text-align: left;
+    margin-bottom: 20px;
+    line-height: 30px;
+    font-size: 20px;
+    color: #686868;
+    
+    }
+        .Summer-Sale span{
+            margin-left: 10px;
+            margin-bottom: 30px;
+            font-size: 18px;
+        }
+        .Summer-Sale li{
+            margin-bottom: 20px;
+        
+        }
+        .Summer-Sale i{
+            font-size: 20px;
+        
+        }
+/*end Summer Sale*/
+/*start our store*/
+.our-store{
+    background-color: #f8f8f8;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.our-store-cont h3,h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.our-store-cont h2{
+  font-size: 25px;
+}
+.our-store-cont h3{
+    color: #686868;
+    font-size: 20px;
+}
+
+.our-store-cont{
+    overflow: hidden;
+}
+.our-store-cont p{
+    padding: 10px 40px;
+    width: 80%;
+    color: #686868;
+    line-height: 25px;
+}
+.our-store-cont span{
+    margin-left: 10px;
+    font-size: 18px;
+}
+.our-store-cont ul{
+    float: left;
+   width: 33.333%;
+    margin-bottom: 20px;
+}
+.our-store-cont i{
+    font-size: 25px;
+    color: #686868;
+}
+
+/*end our store*/
+/*start  Feeling convinced-->*/
+.Feeling-convinced {
+background-image: url(../assets/img/full-3-1.jpg);
+background-size: cover;
+background-attachment: fixed;
+height: 450px;
+position: relative;
+background-position: center center;
+
+}
+.Feeling-convinced .overla{
+    background-color: rgba(0,0, 0, .4);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.Feeling-convinced-cont{
+    color: white;
+    text-align: center;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+
+.Feeling-convinced h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-family: 'Lora', serif;
+}
+.Feeling-convinced p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.Feeling-convinced button{
+    padding: 20px 35px;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid white;
+    background-color: rgba(0,0, 0, .1);
+    text-transform: uppercase;
+
+}
+.Feeling-convinced button:hover{
+color: black;
+background-color: white;
+cursor: pointer;
+}
+  /*end  Feeling convinced-->*/  
+  /*start foter*/
+  .fot-items {
+    float: left;
+    width: 23%;
+   margin-right: 23px;
+  }
+  .foter-top .contaier{
+overflow: hidden;
+  }
+   .foter-top{
+padding-top: 80px;
+padding-bottom: 80px;
+
+  }
+  .foter-top .list-item{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    position: relative;
+   padding-left: 20px;
+   padding-bottom: 10px;
+   margin-top: 15px;
+  
+  }
+  .foter-top .list-item::after{
+    content: '>';
+    position: absolute;
+    top: 4px;
+    left: -10px;
+    padding-left: 10px;
+  }
+  
+  .foter-top li{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    
+  }
+  .foter-top p{
+    color: #797979;
+    line-height: 25px;
+   
+  }
+  .foter-top h2{
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  
+.foter{
+    background-color: #f8f8f8;
+}
+.foter-top li{
+    overflow: hidden;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+  .foter-img{
+    float: right;
+    
+  }
+  
+  .foter-cont{
+    float: left;
+    width: 60%;
+  }
+  .foter-img img{
+border: 1px solid rgba(0, 0, 0, 0.06);
+  }
+  
+  .foter-top span{
+    color: #797979;
+    line-height: 25px;
+  }
+  .nm{
+    color: black;
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  .k{
+    color: #797979;
+    font-size: 18px;
+    margin-right: 5px;
+  }
+  .foter-end{
+    background: #f1f1f1;
+    padding: 25px 0;
+  }
+  .foter-end .contaier{
+overflow: hidden;
+  }
+  .foter-end-cont{
+float: left;
+
+  }
+  .foter-end-icons{
+float: right;
+  }
+  .foter-end-icons li{
+    display: inline-block;
+     height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: rgba(0,0,0,0.08);
+    text-align: center;
+   
+}
+.foter-end-icons li:hover i{
+    color: white;
+}
+.foter-end-icons .F:hover{
+    background-color:darkblue;
+}
+.foter-end-icons .G:hover{
+    background-color:firebrick;
+}
+.foter-end-icons .I:hover{
+    background-color: #0275d8;
+}
+.foter-end-icons .T:hover{
+    background-color:cornflowerblue;
+}
+.foter-end-icons i{
+    text-align: center;
+    padding: 12px 0;
+    color: #818181;
+}
+
+  
+  .foter-end p{
+    color: #818181;
+    padding: 12px 0;
+  }
+
+/*end foter*/
+@media (min-width: 576px) and (max-width: 992px){
+   
+    .logo{
+        float: none;
+        width: 100%;
+    }
+    .nav{
+        float: none;
+        width: 100%;
+        
+    }
+
+.header{
+height: 800px;
+background-position: center center;
+}
+.header-contant{
+    padding-top: 120px;
+   
+    color: white;
+    text-align: center;
+    font-family: 'Lora', serif;
+
+}
+    
+ 
+ 
+
+   /*end header*/
+/*start New Arrivals*/
+
+       
+        .Arrivals-cont p{
+        width: 80%;
+        }
+   
+        .Arr-img{
+            float: left;
+            width: 46%;
+            margin-bottom: 30px;
+        }
+       
+        /*end New Arrivals*/
+
+        /*start New arrivals every week.*/
+
+.New-arrivals-img{
+float: none;
+width: 100%;
+}
+.New-arrivals-img img{
+    width: 100%;
+}
+
+.New-arrivals-contant h2{
+    margin-bottom: 20px;
+    line-height: 30px;
+    font-size: 100;
+}
+.New-arrivals-contant p{
+    width: 90%;
+    text-align: left;
+    margin-bottom: 30px;
+    
+    }
+.New-arrivals-contant{
+    float: none;
+    width: 100%;
+    padding-top: 50px;
+}
+
+/*end New arrivals every week.*/
+
+/*start our store*/
+
+.our-store-cont ul{
+    float: none;
+   width: 100%;
+    margin-bottom: 20px;
+}
+
+
+/*end our store*/
+       /*start Summer Sale*/
+
+.Summer-Sale-cont{
+float: none;
+width: 100%;
+padding-bottom: 50px;
+}
+.Summer-Sale-img{
+float: none;
+width: 100%;
+}
+.Summer-Sale-img img{
+    width: 100%;
+}
+
+/*end Summer Sale*/
+
+/*start foter*/
+.fot-items {
+    float: none;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+ 
+  .foter-top p{
+    color: #797979;
+    line-height: 25px;
+   
+  }
+  .foter-top h2{
+    font-weight: 100;
+    margin-bottom: 20px;
+  }
+  
+  .foter-end{
+    background: #f1f1f1;
+    padding: 25px 0;
+  }
+
+  .foter-end-cont{
+float: none;
+
+  }
+  .foter-end-icons{
+float: none;
+  }
+  .foter-end .contaier{
+   text-align: center;
+      }
+ 
+  /*end foter*/
+}
+.Arr-img img{
+    transition: .5s;
+}
+.Arr-img:hover img{
+transform: scale(.7);
+}
